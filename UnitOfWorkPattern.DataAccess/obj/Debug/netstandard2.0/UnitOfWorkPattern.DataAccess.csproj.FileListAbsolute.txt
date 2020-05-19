@@ -1,0 +1,11 @@
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\bin\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.deps.json
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\bin\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.dll
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\obj\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.AssemblyInfoInputs.cache
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\obj\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.AssemblyInfo.cs
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\obj\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.csprojAssemblyReference.cache
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\bin\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.pdb
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\bin\Debug\netstandard2.0\UnitOfWorkPattern.Entities.dll
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\bin\Debug\netstandard2.0\UnitOfWorkPattern.Entities.pdb
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\obj\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.csproj.CopyComplete
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\obj\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.dll
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.DataAccess\obj\Debug\netstandard2.0\UnitOfWorkPattern.DataAccess.pdb

@@ -1,0 +1,8 @@
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.Entities\bin\Debug\netstandard2.0\UnitOfWorkPattern.Entities.deps.json
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.Entities\bin\Debug\netstandard2.0\UnitOfWorkPattern.Entities.dll
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.Entities\bin\Debug\netstandard2.0\UnitOfWorkPattern.Entities.pdb
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.Entities\obj\Debug\netstandard2.0\UnitOfWorkPattern.Entities.AssemblyInfoInputs.cache
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.Entities\obj\Debug\netstandard2.0\UnitOfWorkPattern.Entities.AssemblyInfo.cs
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.Entities\obj\Debug\netstandard2.0\UnitOfWorkPattern.Entities.dll
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.Entities\obj\Debug\netstandard2.0\UnitOfWorkPattern.Entities.pdb
+C:\Users\MuslumBitgen\source\repos\UnitOfWorkPattern\UnitOfWorkPattern.Entities\obj\Debug\netstandard2.0\UnitOfWorkPattern.Entities.csprojAssemblyReference.cache
