@@ -16,7 +16,7 @@ namespace UnitOfWorkPattern.DataAccess.EntityFramework.Contexts
         //{
         //    optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=UnitOfWorkPattern;Trusted_Connection=True;Integrated Security=True;");
         //}
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Kategori> Kategoris { get; set; }
+        public DbSet<Urun> Uruns { get; set; }
     }
 }

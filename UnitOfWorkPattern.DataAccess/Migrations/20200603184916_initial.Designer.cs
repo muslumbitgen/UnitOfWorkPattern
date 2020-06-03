@@ -10,7 +10,7 @@ using UnitOfWorkPattern.DataAccess.EntityFramework.Contexts;
 namespace UnitOfWorkPattern.DataAccess.Migrations
 {
     [DbContext(typeof(UnitOfWorkPatternContext))]
-    [Migration("20200514201626_initial")]
+    [Migration("20200603184916_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,55 +21,55 @@ namespace UnitOfWorkPattern.DataAccess.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("UnitOfWorkPattern.Entities.Category", b =>
+            modelBuilder.Entity("UnitOfWorkPattern.Entities.Kategori", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CategoryName")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("KategoriName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Kategoris");
                 });
 
-            modelBuilder.Entity("UnitOfWorkPattern.Entities.Product", b =>
+            modelBuilder.Entity("UnitOfWorkPattern.Entities.Urun", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("ProductName")
+                    b.Property<string>("Adi")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("UnitPrice")
+                    b.Property<decimal>("BirimFiyat")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("KategoriId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoryId");
+                    b.HasIndex("KategoriId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Uruns");
                 });
 
-            modelBuilder.Entity("UnitOfWorkPattern.Entities.Product", b =>
+            modelBuilder.Entity("UnitOfWorkPattern.Entities.Urun", b =>
                 {
-                    b.HasOne("UnitOfWorkPattern.Entities.Category", "Category")
-                        .WithMany("Products")
-                        .HasForeignKey("CategoryId")
+                    b.HasOne("UnitOfWorkPattern.Entities.Kategori", "Kategori")
+                        .WithMany("Uruns")
+                        .HasForeignKey("KategoriId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
