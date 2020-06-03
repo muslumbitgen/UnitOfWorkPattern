@@ -12,11 +12,7 @@ namespace UnitOfWorkPattern.DataAccess.EntityFramework.Contexts
         {
 
         }
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=UnitOfWorkPattern;Trusted_Connection=True;Integrated Security=True;");
-        //}
-        public DbSet<Kategori> Kategoris { get; set; }
-        public DbSet<Urun> Uruns { get; set; }
+        public DbSet<Kategori> Kategoriler { get; set; }
+        public DbSet<Urun> Urunler { get; set; }
     }
 }

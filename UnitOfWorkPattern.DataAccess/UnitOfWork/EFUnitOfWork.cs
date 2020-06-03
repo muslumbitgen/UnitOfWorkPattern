@@ -9,6 +9,7 @@ namespace UnitOfWorkPattern.DataAccess.UnitOfWork
     public class EFUnitOfWork : IUnitOfWork
     {
         private readonly UnitOfWorkPatternContext _dbContext;
+        private bool disposed = false;
 
         public EFUnitOfWork(UnitOfWorkPatternContext dbContext)
         {
@@ -35,7 +36,6 @@ namespace UnitOfWorkPattern.DataAccess.UnitOfWork
                 throw;
             }
         }
-        private bool disposed = false;
         protected virtual void Dispose(bool disposing)
         {
             if (!this.disposed)

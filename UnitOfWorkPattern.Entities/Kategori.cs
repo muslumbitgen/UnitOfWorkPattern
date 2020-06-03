@@ -8,11 +8,11 @@ namespace UnitOfWorkPattern.Entities
     {
         public Kategori()
         {
-            this.Uruns = new List<Urun>();
+            this.Urunler = new List<Urun>();
         }
         public int Id { get; set; }
-        public string KategoriName { get; set; }
+        public string Adi { get; set; }
 
-        public virtual ICollection<Urun> Uruns { get; set; }
+        public virtual ICollection<Urun> Urunler { get; set; }
     }
 }

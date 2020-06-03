@@ -10,7 +10,6 @@ namespace UnitOfWorkPattern.Entities
         public string Adi { get; set; }
         public int KategoriId { get; set; }
         public decimal BirimFiyat { get; set; }
-
         // Relations
         public virtual Kategori Kategori { get; set; }
     }
